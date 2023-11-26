@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav */
+.nav a{
+    text-decoration: none;
+}
+/* hero section */
+.hero-conternt h1{
+  font-size: 3rem;
+}
+.hero-conternt h3{
+    font-size: 2em;
+    font-weight: 400;
+}
+.hero-conternt a{
+    text-decoration: none;
+    color: #000;
+}
+.hero-conternt h2{
+    background-color: #ffd701;
+    padding: 1rem 4rem;
+    display: flex;
+    display: inline-block;
+    border-radius: .375rem;
+}
+
+/* section 3 */
+
+.section-3 h1{
+    font-size: 3rem;
+}
+.section-3 span{
+color: #911a0a;
+}
+.section-3 p{
+    font-size: 1.2rem;
+}
+/* section 4 */
+.section-4 {
+    padding: 4rem 1rem;
+}
+.section-4 h1{
+    color: #911a0a;
+    font-weight: bold;
+    padding: 0 1.5rem;
+}
+.section-4 h5{
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: bold;
+}
+.section-4 a{
+    color: #000;
+    text-decoration: none;
+    width: 100%;
+}
+
+.section-4 h2{
+    background-color: #ffd701;
+    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    color: #911a0a;
+    font-weight: bold;
+}
+/* section 5 */
+.section-5{
+    padding: 3rem;
+}
+.section-5 span{
+   color: #911a0a;
+}
+.section-5 h1{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+.section-5 ul li{
+    font-size: 1.2rem;
+}
+.section-5 p{
+    text-align: center;
+    font-size: 1.1rem;
+}
+/* section 6 */
+.section-6{
+    background: #1b293d;
+}
+.section-6 a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+}
+/* footer */
+footer{
+    background: #E9E9E0;
+}
+footer p{
+    font-size: 1.1rem;
+}
+footer h6{
+    font-size: 1.2rem;
+    color: #9a9a9a;
+    font-weight: 400;
+}
+
+/* global */
+@media screen and (max-width: 768px) {
+     h1{
+        font-size: 1.8rem !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .section-4 h2{
+        font-size: 1rem !important;
+        margin-bottom: 2rem;
+    }
+}
